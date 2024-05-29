@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" id="theme">
+	
+
+	<title>BOOKTOP</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="head">
+		<nav class="navbar navbar-expand-md navbar-light mb-2">
+		  <div class="container-lg">
+		    <a class="navbar-brand" href="C:/Users/sd030/Desktop/booktop-sub/index.html">
+		    	<img class="logo-head" src="C:/Users/sd030/Desktop/booktop-sub/images/logo-p1-noBG.jpg"><img>
+		    </a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+		      	<!--<li class="nav-item dropdown">
+		          <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bars me-2"></i>Каталог</a>
+		        </li>  -->
+		      	
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link top-menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bars me-2"></i>Каталог</a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item" href="C:/Users/sd030/Desktop/booktop-sub/CATALOG/manga/index.html">Манга</a></li>
+		            <li><a class="dropdown-item" href="C:/Users/sd030/Desktop/booktop-sub/CATALOG/manhva/index.html">Манхва</a></li>
+		            <li><a class="dropdown-item" href="C:/Users/sd030/Desktop/booktop-sub/CATALOG/manihua/index.html">Маньхуа</a></li>
+		            <li><a class="dropdown-item" href="C:/Users/sd030/Desktop/booktop-sub/CATALOG/single/index.html">Сингл</a></li>
+		            <li><a class="dropdown-item" href="C:/Users/sd030/Desktop/booktop-sub/CATALOG/OEL-manga/index.html">OEL-Манга</a></li>
+		            <li><a class="dropdown-item" href="C:/Users/sd030/Desktop/booktop-sub/CATALOG/comics/index.html">Комикс</a></li>
+		            <li><a class="dropdown-item" href="C:/Users/sd030/Desktop/booktop-sub/CATALOG/rumanga/index.html">Руманга</a></li>
+		          </ul>
+		        </li>
+		        
+		        
+
+		        
+
+		        <li class="nav-item">
+		          <a class="nav-link active top-menu" aria-current="page" href="#"><i class="fa-regular fa-newspaper me-2"></i>Новости</a>
+		        </li>
+
+		        <li class="nav-item">
+			        <form class="search-box">
+								<input class="search-txt" type="text" id="myInput" onkeyup="myFunction()" name="" placeholder="Поиск..."></input>
+								<a href="#" class="search-btn ">
+									<i class="fa-solid fa-magnifying-glass me-1"></i>
+								</a>
+							</form>
+						</li>
+				</li>
+		        <!-- <li class="nav-item">
+		          <a class="nav-link active top-menu" aria-current="page" href="#"><i class="fa-solid fa-magnifying-glass me-2"></i>Поиск</a>
+		        </li> -->
+		        
+		      </ul>
+
+		      <ul class="navbar-nav mb-2 mb-lg-0 ms-5">
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle navbar-light" data-bs-toggle="dropdown" href="#"><i class="fa-solid fa-user" style="margin-right: 5px;"></i></a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item" href="#">Регистрация</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item" href="#">Авторизация</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item switch">
+		        	<button id="switchMode"><i class="fa-regular fa-moon"></i></button>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="midle">
+			<div class="row">
+				<div class="col-md-12 col-sm-2">
+					<div class="popular">
+						<h2 class="disk">Каталог манги<h2>
+						<div class="search_b">
+							<input class="search-inside" type="search" oninput="liveSearch()" id="searchbox" placeholder="Поиск...">
+						</div>
+						<div class="catalog-mangi">
+							<div class="cards">
+								<a href="#" class="manga-card__link">
+									<div class="manga-card__image">
+										<img src="https://abrakadabra.fun/uploads/posts/2022-02/1644810020_22-abrakadabra-fun-p-freimi-iz-mangi-51.jpg" alt="Manga Cover">
+									</div>
+									<div class="manga-card__content">
+										<h3 class="manga-card__title">Перемирие</h3>
+										<p class="manga-card__info">
+											<span class="manga-card__genre">Манга</span>
+											<span class="manga-card__status">Статус: Выпускается</span>
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="cards">
+								<a href="#" class="manga-card__link">
+									<div class="manga-card__image">
+										<img src="https://avatars.mds.yandex.net/i?id=f1ee9e33f568310b1a69565104550ee5171c12a1-12569903-images-thumbs&n=13" alt="Manga Cover">
+									</div>
+									<div class="manga-card__content">
+										<h3 class="manga-card__title">Секрет близкого друга</h3>
+										<p class="manga-card__info">
+											<span class="manga-card__genre">Манга</span>
+											<span class="manga-card__status">Статус: Выпускается</span>
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="cards">
+								<a href="#" class="manga-card__link">
+									<div class="manga-card__image">
+										<img src="https://avatars.mds.yandex.net/i?id=e75ab42059ee6c48c4ea1977a0062f0311abd44b-12422585-images-thumbs&n=13" alt="Manga Cover">
+									</div>
+									<div class="manga-card__content">
+										<h3 class="manga-card__title">И всё же Чигира-кун такой милый!</h3>
+										<p class="manga-card__info">
+											<span class="manga-card__genre">Манга</span>
+											<span class="manga-card__status">Статус: Выпускается</span>
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="cards">
+								<a href="#" class="manga-card__link">
+									<div class="manga-card__image">
+										<img src="https://avatars.mds.yandex.net/i?id=0983db04a5d248420e676e5fb7853ef0505c4a11-12496425-images-thumbs&n=13" alt="Manga Cover">
+									</div>
+									<div class="manga-card__content">
+										<h3 class="manga-card__title">Идеальный контракт</h3>
+										<p class="manga-card__info">
+											<span class="manga-card__genre">Манга</span>
+											<span class="manga-card__status">Статус: Выпускается</span>
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="cards">
+								<a href="#" class="manga-card__link">
+									<div class="manga-card__image">
+										<img src="https://avatars.mds.yandex.net/i?id=91b01211d701caaf8698e53ad9b6fbf4b0611089-10452644-images-thumbs&n=13" alt="Manga Cover">
+									</div>
+									<div class="manga-card__content">
+										<h3 class="manga-card__title">Квестовая жизнь регрессировавшего авантюриста S-класса</h3>
+										<p class="manga-card__info">
+											<span class="manga-card__genre">Манга</span>
+											<span class="manga-card__status">Статус: Выпускается</span>
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="cards">
+								<a href="#" class="manga-card__link">
+									<div class="manga-card__image">
+										<img src="https://avatars.mds.yandex.net/i?id=a73eb67250960f8e24b014643af06b435f304eaa-10869844-images-thumbs&n=13" alt="Manga Cover">
+									</div>
+									<div class="manga-card__content">
+										<h3 class="manga-card__title">Добро пожаловать в Японию, Эльф-сан!</h3>
+										<p class="manga-card__info">
+											<span class="manga-card__genre">Манга</span>
+											<span class="manga-card__status">Статус: Выпускается</span>
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="cards">
+								<a href="#" class="manga-card__link">
+									<div class="manga-card__image">
+										<img src="https://avatars.mds.yandex.net/i?id=ad034f4e0af01a75da9dc73eb6ba6223f992e788-8564743-images-thumbs&n=13" alt="Manga Cover">
+									</div>
+									<div class="manga-card__content">
+										<h3 class="manga-card__title">Регрессия айдола</h3>
+										<p class="manga-card__info">
+											<span class="manga-card__genre">Манга</span>
+											<span class="manga-card__status">Статус: Выпускается</span>
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</div>
+	<script src="C:\Users\sd030\Desktop\booktop-sub\CATALOG\manga/script.js"></script>
+	
+	<script src="https://kit.fontawesome.com/ba509020d1.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
