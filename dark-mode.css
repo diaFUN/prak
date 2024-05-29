@@ -1,0 +1,552 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', snans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	background-color: #141414 !important;
+	min-width: 320px;
+
+}
+
+img{
+	min-width: 100%;
+	height: auto;
+}
+
+/* HEADER*/
+.navbar{
+	background-color: #FFA07A;
+	/*width: 100% !important;*/
+}
+
+.nav-link{
+	color: #fff !important;
+}
+
+.logo-head{
+	width: 150px;
+}
+
+
+
+/*ДЕЛИТНУТЬ*/
+.logo-del{
+	width: 15px;
+	height: 220px;
+}
+
+.brik{
+	border-radius: 10px;
+	border: 2px solid black;
+}
+/*ДЕЛИТНУТЬ*/
+
+
+.top-menu::after{
+	content: '';
+	display: block;
+	width: 100% !important;
+	background-color: #FFF;
+	height: 1px !important;
+	transition: all .3s !important;
+	transform: scale(0);
+}
+
+.top-menu:hover::after{
+	transform: scale(1);
+}
+
+
+		/* КАТАЛОГ */
+.h-items{
+	display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+		/* КАТАЛОГ */
+
+		/* ПОИСК */
+
+.search-box{
+	background: #FFF;
+	height: 40px;
+	border-radius: 40px;
+}
+
+.r-icon{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	position: relative;
+}
+
+
+.search-btn{
+	color: #FFA07A;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.search-box:hover > .search-txt
+{
+	width: 240px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-btn
+{
+	background: white;
+
+}
+
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: #000;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+	transition: 0.4s;
+}
+
+		/* ПОИСК */
+
+
+		/* ТЕМНАЯ-СВЕТЛАЯ ТЕМА */
+
+.switch{
+	background: none;
+	border: none;
+	color: #FFF;
+	display: flex;
+	align-items: center;
+}
+
+		/* ТЕМНАЯ-СВЕТЛАЯ ТЕМА */
+
+
+/* HEADER*/
+
+/*MIDLE*/
+.popular{
+	/*border: 5px solid black;*/
+	background-color: #1c1c1e;
+	border-radius: 5px;
+	margin-left: ;
+	padding: 10px 14px;
+}
+
+.news_forum{
+	margin-top: 20px;
+	background-color: #1c1c1e;
+	border-radius: 5px;
+}
+
+	/* Новости и Форум */
+
+.news_forum{
+	margin-bottom: 10px;
+}
+
+.classic-link{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.last_news{
+	padding: 10px 14px;
+}
+
+.r-list-items{
+	padding: 3px 0px;
+	font-size: 14px;
+}
+
+.disk{
+	font-size: 17px;
+}
+
+.r-list-items__user{
+	font-size: 13px;
+	margin-right: 10px;
+}
+
+.r-list-items__date{
+	font-size: 13px;
+	
+}
+
+.place{
+	vertical-align: 0 !important;
+}
+
+.section_news{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.r-list-items a:hover {
+  color: #FFA07A;
+}
+
+.r-list-items a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #FFA07A;
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+}
+
+.r-list-items a:hover::after{
+	transform: scale(1);
+}
+
+
+.low a:hover {
+  color: #FFA07A;
+}
+
+.low a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #FFA07A;
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+}
+
+.low a:hover::after{
+	transform: scale(1);
+}
+
+
+
+	/* Новости и Форум */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* в самом конце +- */
+
+.glava{
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 14px;
+}
+
+/* в самом конце +- */
+
+
+/*MIDLE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ПРАВАЯ КОЛОНКА MIDLE*/
+
+hr{
+	margin: 0 !important;
+}
+
+.r-col-active{
+	/*border: 5px solid black;*/
+	background-color: #1c1c1e;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+
+.r-col-top-disc{
+	padding: 10px 14px 0 14px;
+}
+
+.top-user__avatar{
+	float: left;
+    width: 5px;
+    height: 50px;
+    display: block;
+}
+
+
+
+
+/*----ПРОБА----*/
+
+		/*ПРОГРЕССБАР*/
+		
+.r-col-dopLVL{
+	font-size:12px;
+}
+		
+.r-col-LVL{
+	padding-left: 12px;
+	font-size:12px;
+}
+
+.r-col-progressbar{
+	padding-left: 70px;
+}
+		/*ПРОГРЕССБАР*/
+
+.r-col-height__inf{
+	height: 40px;
+}
+
+.r-col-height__progressbar{
+	height: 10px;
+}
+
+.r-col-user-rank{
+	position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 700;
+    line-height: 1.1;
+	float:right;
+}
+
+
+.r-col-card{
+	background-color: #1c1c1e;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.r-col-top-users{
+	margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.r-col-top-users__border{
+	padding: 10px 14px;
+    display: block;
+    border-bottom: solid 2px #FFA07A;
+}
+
+.top-users-content{
+	padding: 10px 14px;
+	display: inline-block;
+}
+
+.top-user{
+	display: flex;
+	width: 50px;
+	height: 50px;
+}
+
+.r-col-hr{
+	margin-top: 10px !important;
+}
+
+
+		/*ЖАНР*/
+
+.r-col-zhanr__tags{
+	padding: 10px 14px;
+	display: inline-block;
+}
+
+.r-col-tags{
+	overflow: hidden;
+    height: 155px;
+}
+
+.r-col-bg{
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 8px 8px 0;
+	float: left;
+	border-radius: 2px;
+	background-color: #E7EDF3;
+	white-space: nowrap;
+}
+
+.tags-more{
+	text-align: center;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #818181;
+    cursor: pointer;
+}
+
+.link-tags{
+	text-decoration: none;
+	color: #000;
+}
+
+.link-tags:hover{
+	color: #FFA07A;
+}
+
+.tags-more:hover{
+	color: #FFA07A;
+}
+
+
+
+		/*ЖАНР*/
+
+
+
+
+
+
+
+
+		/*КАТЕГОРИИ*/
+.top-users-content{
+	padding: 10px 14px;
+	display: inline-block;
+}
+
+.r-col-categories__tags{
+	padding: 10px 14px;
+	display: inline-block;
+}
+
+.r-col-tags__categories{
+	margin: 0;
+	padding: 0;
+}
+		/*КАТЕГОРИИ*/
+
+
+
+		/*НОВАЯ МАНГА*/
+
+.new_manga{
+	width: 71px;
+	height: 140px;
+}
+
+.r-col-pop-mang{										
+	display: flex;
+	width: 65px;
+	text-decoration: none;
+	color: black;
+}
+
+.pop-mang-content{
+	padding: 10px 14px;
+}
+
+.manga-list{
+	padding: 0 0 0 12px;
+	font-size: 1 rem;
+	font-weight: 400;
+	align-content: center;
+}
+
+.dfd{
+	display: flex;
+}
+
+
+
+
+
+
+		/*НОВАЯ МАНГА*/
+
+
+
+
+
+
+
+
+		/*ССЫЛКА правая колонка*/
+
+		.top-users-content a:hover {
+		  color: #FFA07A;
+		}
+
+		.top-users-content a::after{
+			content: '';
+			display: block;
+			width: 100%;
+			background-color: #FFA07A;
+			height: 1px;
+			transition: all .3s;
+			transform: scale(0);
+			margin-right: 20px;
+		}
+
+		.top-users-content a:hover::after{
+			transform: scale(1);
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+		/*ССЫЛКА правая колонка*/
+
+
+
+/*----ПРОБА----*/
+
+/*ПРАВАЯ КОЛОНКА MIDLE*/
